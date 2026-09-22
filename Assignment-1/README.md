@@ -3,8 +3,8 @@
 ## Programming the Puck.js
 
 1. Open the Web IDE : https://www.espruino.com/ide/#
-2. Connect to the Puck.js using Web BLE UART
-3. Write and flash your program. To keep it safe, flash to RAM.
+2. Connect to the Puck.js using Web Bluetooth. The first time you do this, you have to "Pair" with your Puck. Later on, it will appear in the list.
+3. Write and flash your program. To keep it safe, **flash to RAM**.
 
 There are tons of tutorials:
 
@@ -96,13 +96,18 @@ updateAdvertising();
 
 ## Using the NRF Power Profiler Kit
 
-This video here explains the device comprehensively:
+You need to install NRF Connect first. You can get from here:
+https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop
+                                                              
+After you install and start the NRF Connect and choose to install the Power Profiler. 
+This video here explains the use of the Profiler comprehensively:
 
 https://www.youtube.com/watch?v=B42lPvkUSoc&list=PLx_tBuQ_KSqE6HPC-8ho6ZnJUu3FD4U0n&index=1
 
-But for your purpose, here is what you do:
+Here is what you do:
 
 1. Go to the Lab. You have two Power Profiler kits already connected to a Puck.js each (The Pucks should **not** have the Battery inserted).
+
 2. In case connections have been removed, dont panic. See this image and reconnect accordingly:
 ![PPK Connections](images/ppk-connections.jpeg)
 - USB is connected to the "USB Data Power" port (not to USB Power Only)
@@ -127,7 +132,7 @@ But for your purpose, here is what you do:
 5. After stopping you can zoom in/out and highlight a particular time window to get the details.
 6. You can save the PPK2 file using the Save button (choose the PPK2 file option)
 
-### How to Meausure Energy Consumed by a Specific Code Part
+### Only needed for the Optional Question: How to Meausure Energy Consumed by a Specific Code Part
 You can use a simple trick: switch on LED for brief moment before executing the code part and then again after the code part. You will see to huge peaks in the profile. What is in between is the consumption due to the code part. Here is how to do it:
 
 1. Probe the LED's power consumption

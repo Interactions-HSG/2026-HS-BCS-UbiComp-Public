@@ -1,7 +1,9 @@
 # Part 2
 
 ## Task 1: Train network
-Code deliverable only (network-trainer.py)
+### Performance of the network
+(briefly describe the network)
+What was the accuracy achieved?
 
 ## Task 2: Network on Puck
 
