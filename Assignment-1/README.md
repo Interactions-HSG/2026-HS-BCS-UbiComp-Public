@@ -108,6 +108,10 @@ Here is what you do:
 
 1. Go to the Lab. You have two Power Profiler kits already connected to a Puck.js each (The Pucks should **not** have the Battery inserted).
 
+Wait! Where is the Lab? It is in Rosenbergstrasse 30, 1st floor. When you enter the first floor door, turn left, go straight to the door and try the access card. If it doesnt work contact a TA. If it works go through the door and the enter the door on left marked Lab. On the worktable there are two Profilers:
+
+![alt text](images/ppks-in-lab.png)
+
 2. In case connections have been removed, dont panic. See this image and reconnect accordingly:
 ![PPK Connections](images/ppk-connections.jpeg)
 - USB is connected to the "USB Data Power" port (not to USB Power Only)
